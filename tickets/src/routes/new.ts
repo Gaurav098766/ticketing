@@ -41,5 +41,3 @@ validationRequest,
 );
 
 export { router as createTicketRouter };
-
-// error TS2554: Expected 0 arguments, but got 1
