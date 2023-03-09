@@ -7,5 +7,5 @@ import { Subjects } from "../../../../common/src/events/subjects"
 import { TicketCreatedEvent } from '../../../../common/src/events/ticket-created-event'
 
 export class TicketCreatedPublisher extends Publisher<TicketCreatedEvent>{
-    subject: TicketCreatedEvent['subject']=Subjects.TicketCreated
+    subject: Subjects.TicketCreated = Subjects.TicketCreated
 }
